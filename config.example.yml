@@ -1,5 +1,5 @@
 gmail_to_pdf:
-  save_attachments: true
+  save_attachments: false
   texts:
     date_prefix: "Document generated on"
     document_title: "Gmail correspondence exported to PDF"
