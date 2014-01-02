@@ -45,6 +45,9 @@ If save_attachments setting set to true it will save all attachments on your har
 * define all supported criteria
 * full text Gmail search
 
+## Known issues
+* not working for Gmail account with two factor authentication
+
 ## License
 
 Licensed under the [MIT License](http://creativecommons.org/licenses/MIT/)
