@@ -1,0 +1,11 @@
+gmail_to_pdf:
+  save_attachments: true
+  texts:
+    date_prefix: "Document generated on"
+    document_title: "Gmail correspondence exported to PDF"
+    footer: "Gmail to PDF | Marek Stachura (@marekstachura)"
+  criteria:
+    1:
+      from: "mom@gmail.com"
+    2:
+      to: "dad@gmail.com"
