@@ -5,12 +5,7 @@ class EmailPdf < Prawn::Document
 
   def initialize(emails, config)
     super(top_margin: 50)
-    font_families.update(
-      "Arial" => {
-        :bold =>  "./fonts/Arial Bold.ttf",
-        :italic => "./fonts/Arial Italic.ttf",
-        :bold_italic => "./fonts/Arial Bold Italic.ttf",
-        :normal => "./fonts/Arial.ttf" })
+    font_families.update( "Arial" => { :normal => "./fonts/Arial.ttf" })
 
     @emails = emails
     @config = config
