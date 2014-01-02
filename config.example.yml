@@ -6,6 +6,9 @@ gmail_to_pdf:
     footer: "Gmail to PDF | Marek Stachura (@marekstachura)"
   criteria:
     1:
-      from: "mom@gmail.com"
+      from: "alice@gmail.com"
+      before: "2014-01-01"
+      after: "2013-05-31"
     2:
-      to: "dad@gmail.com"
+      to: "bob@gmail.com"
+      after: "2013-05-31"
